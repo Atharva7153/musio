@@ -106,9 +106,9 @@ async function main() {
             console.error("Error: .info div not found!");
             return;
         }
-        div.innerHTML = `<h2> Currently playing : <u> ${songName} </u> </h2> <br>
-                         <h2> Song By : <u> ${Artist} </u></h2> <br>
-                         <h2> Duration :<u> ${minutes} minutes ${seconds} seconds </u> </h2>`
+        div.innerHTML = `<h2> Currently playing : <span class = "deco"> <u> ${songName} </u> </span> </h2> <br>
+                         <h2> Song By : <span class = "deco"> <u> ${Artist} </u> </span></h2> <br>
+                         <h2> Duration : <span class = "deco"><u> ${minutes} minutes ${seconds} seconds </u></span> </h2>`
     })
 
 

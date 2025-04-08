@@ -1,0 +1,41 @@
+.btn1{
+    background-color: #0091ff;
+    color: white;
+    font-weight: bold;
+    height: 6vh;
+    width: 10vw;
+    font-size: 200%;
+    border: 1px solid black;
+}
+.btn1:hover{
+    background-color: #2b5270;
+}
+.btn2{
+    background-color: #e31992;
+    color: white;
+    font-weight: bold;
+    height: 3vh;
+    width: 5vw;
+    font-size: 100%;
+    border: 1px solid black;
+}
+.btn2:hover{
+    background-color: #e31919;
+}
+
+.update {
+    font-style: italic;
+    color: red;
+}
+.deco {
+    font-weight: bold;
+    color: #19e35c; 
+}
+.deco:hover{
+    font-style: italic;
+    color: red;
+}
+.info{
+    font-style: italic;
+    font-weight: normal;
+}
