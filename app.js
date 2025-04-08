@@ -110,6 +110,22 @@ async function main() {
                          <h2> Song By : <span class = "deco"> <u> ${Artist} </u> </span></h2> <br>
                          <h2> Duration : <span class = "deco"><u> ${minutes} minutes ${seconds} seconds </u></span> </h2>`
     })
+    let isDarkmode = false
+    let toggle = document.querySelector(".toggle")
+    toggle.addEventListener("click", ()=>{
+      if(isDarkmode == false){
+        let link = document.querySelector(".tp")
+        link.innerHTML = ` <link rel="stylesheet" href="darkmode.css">`
+        document.querySelector(".head").prepend(link)
+        isDarkmode = true
+      }else{
+        let link = document.querySelector(".tp")
+        link.innerHTML = ` <link rel="stylesheet" href="style.css">`
+        document.querySelector(".head").prepend(link)
+        isDarkmode = false
+      }
+      
+    })
 
 
 
