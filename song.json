@@ -24,6 +24,11 @@
                 "url" : "./English/Perfect.mp3"  
             },
             {
+                "title" : "Blue",
+                "artist" : "Young Kai",
+                "url" : "./English/blue.mp3"
+            },
+            {
                 "title" : "Shape of You",
                 "artist" : "Ed Sheeran",
                 "url" : "./English/Shape_Of_You.mp3"
