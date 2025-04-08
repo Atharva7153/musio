@@ -15,6 +15,21 @@
                 "title" : "Pyar Hota kai bar hai",
                 "artist" : "Arjith Singh",
                 "url" : "./Bollywood/Pyar_Hota_Kai_Baar.mp3"
+            },
+            {
+                "title" : "Na Bhoola Tujhe",
+                "artist" : "Unknown",
+                "url" : "./Bollywood/Na_Bhoola_Tujhe.mp3"
+            },
+            {
+                "title" : "O Rangrez",
+                "artist" : "Arjith Singh",
+                "url" : "./Bollywood/O_Rangrez.mp3"
+            },
+            {
+                "title" : "Saaya Tera",
+                "artist" : "Arjith Singh",
+                "url" : "./Bollywood/Saaya_Tera.mp3"
             }
         ],
         "english" : [
@@ -32,6 +47,11 @@
                 "title" : "Shape of You",
                 "artist" : "Ed Sheeran",
                 "url" : "./English/Shape_Of_You.mp3"
+            },
+            {
+                "title" : "World's Smallest Violin",
+                "artist" : "Ed Sheeran",
+                "url" : "./English/World's_smallest_violin.mp3"
             }
         ],
         "indie" : [
@@ -44,7 +64,28 @@
                 "title" : "Heer Ranjha",
                 "artist" : "Bhuvan Bam",
                 "url" : "./Indie/Heer_ranjha.mp3"
+            },
+            {
+                "title" : "Ajnabee",
+                "artist" : "Bhuvan Bam",
+                "url" : "./Indie/Ajnabee.mp3"
+            },
+            {
+                "title" : "Aj Na",
+                "artist" : "Ritviz",
+                "url" : "./Indie/Aj_Na.mp3"
+            },
+            {
+                "title" : "Baraat",
+                "artist" : "Ritviz",
+                "url" : "./Indie/Baraat.mp3"
+            },
+            {
+                "title" : "Liggi",
+                "artist" : "Ritviz",
+                "url" : "./Indie/Liggi.mp3"
             }
+
         ]
 
     }
