@@ -1,0 +1,41 @@
+[
+    {
+        "bollywood" : [
+            {
+                "title" : "Kesariya",
+                "artist" : "Arjith Singh",
+                "url" : "./Bollywood/Kesariya.mp3"
+            },
+            {
+                "title" : "Pyar Hota kai bar hai",
+                "artist" : "Arjith Singh",
+                "url" : "./Bollywood/Pyar_Hota_Kai_Baar.mp3"
+            }
+        ],
+        "english" : [
+            {
+              "title" : "Perfect",
+                "artist" : "Ed Sheeran",
+                "url" : "./English/Perfect.mp3"  
+            },
+            {
+                "title" : "Shape of You",
+                "artist" : "Ed Sheeran",
+                "url" : "./English/Shape_Of_You.mp3"
+            }
+        ],
+        "indie" : [
+            {
+                "title" : "Bing Bing Boo",
+                "artist" : "Yash Raj mukhate",
+                "url" : "./Indie/Bing_boo.mp3"
+            },
+            {
+                "title" : "Heer Ranjha",
+                "artist" : "Bhuvan Bam",
+                "url" : "./Indie/Heer_ranjha.mp3"
+            }
+        ]
+
+    }
+]
