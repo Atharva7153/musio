@@ -4,86 +4,102 @@
             {
                 "title" : "Kesariya",
                 "artist" : "Arjith Singh",
-                "url" : "./Bollywood/Kesariya.mp3"
+                "url" : "./Bollywood/Kesariya.mp3",
+                "mood" : "romantic"
             },
             {
                 "title" : "Deva Deva",
                 "artist" : "Arjith Singh",
-                "url" : "./Bollywood/Deva.mp3"
+                "url" : "./Bollywood/Deva.mp3",
+                "mood" : "happy"
             },
             {
                 "title" : "Pyar Hota kai bar hai",
                 "artist" : "Arjith Singh",
-                "url" : "./Bollywood/Pyar_Hota_Kai_Baar.mp3"
+                "url" : "./Bollywood/Pyar_Hota_Kai_Baar.mp3",
+                "mood" : "happy"
             },
             {
                 "title" : "Na Bhoola Tujhe",
                 "artist" : "Unknown",
-                "url" : "./Bollywood/Na_Bhoola_Tujhe.mp3"
+                "url" : "./Bollywood/Na_Bhoola_Tujhe.mp3",
+                "mood" : "sad"
             },
             {
                 "title" : "O Rangrez",
                 "artist" : "Arjith Singh",
-                "url" : "./Bollywood/O_Rangrez.mp3"
+                "url" : "./Bollywood/O_Rangrez.mp3",
+                "mood" : "romantic"
             },
             {
                 "title" : "Saaya Tera",
                 "artist" : "Arjith Singh",
-                "url" : "./Bollywood/Saaya_Tera.mp3"
+                "url" : "./Bollywood/Saaya_Tera.mp3",
+                "mood" : "happy"
             }
         ],
         "english" : [
             {
               "title" : "Perfect",
                 "artist" : "Ed Sheeran",
-                "url" : "./English/Perfect.mp3"  
+                "url" : "./English/Perfect.mp3" ,
+                "mood" : "romantic" 
             },
             {
                 "title" : "Blue",
                 "artist" : "Young Kai",
-                "url" : "./English/blue.mp3"
+                "url" : "./English/blue.mp3",
+                "mood" : "sad"
             },
             {
                 "title" : "Shape of You",
                 "artist" : "Ed Sheeran",
-                "url" : "./English/Shape_Of_You.mp3"
+                "url" : "./English/Shape_Of_You.mp3",
+                "mood" : "happy"
             },
             {
                 "title" : "World's Smallest Violin",
                 "artist" : "Ed Sheeran",
-                "url" : "./English/World's_smallest_violin.mp3"
+                "url" : "./English/World's_smallest_violin.mp3",
+                "mood" : "happy"
             }
         ],
         "indie" : [
             {
                 "title" : "Bing Bing Boo",
                 "artist" : "Yash Raj mukhate",
-                "url" : "./Indie/Bing_boo.mp3"
+                "url" : "./Indie/Bing_boo.mp3",
+                "mood" : "happy"
             },
             {
                 "title" : "Heer Ranjha",
                 "artist" : "Bhuvan Bam",
-                "url" : "./Indie/Heer_ranjha.mp3"
+                "url" : "./Indie/Heer_ranjha.mp3",
+                "mood" : "romantic"
             },
             {
                 "title" : "Ajnabee",
                 "artist" : "Bhuvan Bam",
-                "url" : "./Indie/Ajnabee.mp3"
+                "url" : "./Indie/Ajnabee.mp3",
+                "mood" : "romantic"
             },
             {
                 "title" : "Aj Na",
                 "artist" : "Ritviz",
-                "url" : "./Indie/Aj_Na.mp3"
+                "url" : "./Indie/Aj_Na.mp3",
+                "mood" : "romantic"
             },
             {
                 "title" : "Baraat",
                 "artist" : "Ritviz",
-                "url" : "./Indie/Baraat.mp3"
+                "url" : "./Indie/Baraat.mp3",
+                "mood" : "happy"
             },
             {
                 "title" : "Liggi",
                 "artist" : "Ritviz",
-                "url" : "./Indie/Liggi.mp3"
+                "url" : "./Indie/Liggi.mp3",
+                "mood" : "happy"
             }
 
         ]

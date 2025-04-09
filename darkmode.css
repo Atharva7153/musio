@@ -37,10 +37,65 @@
     font-style: italic;
     color: red;
 }
+
 .info{
+    margin: 0;
+    padding-top: 0;
+    background-color: #19e35c;
     font-style: italic;
     font-weight: normal;
+    width: 60vh;
+    height: 30vh;
+    gap: 2%;
+    border: 2px solid black;
+    border-radius: 10%;
 }
+.info *{
+    background-color: transparent;
+}
+.info.happy{
+    animation: happyColors 30s infinite 
+}
+@keyframes happyColors {
+    0%{
+        background-color: #FF006D;
+    }
+    50%{
+        background-color: #8F00FF;
+    }
+    100%{
+        background-color: #FF7D00;
+    }
+}
+.info.sad{
+    animation: sadColors 30s infinite 
+}
+@keyframes sadColors {
+    0%{
+        background-color: 	#2a3b90;
+    }
+    50%{
+        background-color: #0c0d49;
+    }
+    100%{
+        background-color: #183a23;
+    }
+}
+.info.romantic{
+    animation: RomanticColors 30s infinite 
+}
+@keyframes RomanticColors {
+    0%{
+        background-color: #ff009e;
+    }
+    50%{
+        background-color: #fea0ff;
+    }
+    100%{
+        background-color: #ff819f;
+    }
+}
+
 .toggle{
     font-weight: bold;
     color: black;

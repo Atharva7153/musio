@@ -1,12 +1,12 @@
 console.log("ATharva")
 let i = 0;
-let isPlaying = false
+let isPlaying = true
 let playlist;
 let audio = new Audio()
 let songData;
 let songName;
 let Artist;
-
+let SongMood;
 
 async function main() {
 
@@ -20,9 +20,11 @@ async function main() {
         console.log(music)
         audio.src = music[x].url
         audio.play()
-        let name = music[x].title
-        let artist = music[x].artist
-        return { name, artist }
+        songName= music[x].title
+        Artist = music[x].artist
+        SongMood = music[x].mood
+        console.log(mood)
+        return { name, artist, mood }
 
     }
     let btnEng = document.querySelector(".English")
@@ -31,6 +33,8 @@ async function main() {
         console.log("english")
         songData = playMusic(i);
         songName = songData.name
+        SongMood = songData.mood
+        console.log(SongMood)
         Artist = songData.artist
         isPlaying = true
 
@@ -42,6 +46,8 @@ async function main() {
         songData = playMusic(i);
         songName = songData.name
         Artist = songData.artist
+        SongMood = songData.mood
+        console.log(SongMood)
         isPlaying = true
 
 
@@ -54,6 +60,8 @@ async function main() {
         songData = playMusic(i);
         songName = songData.name
         Artist = songData.artist
+        SongMood = songData.mood
+        console.log(SongMood)
         isPlaying = true
 
     })
@@ -106,9 +114,14 @@ async function main() {
             console.error("Error: .info div not found!");
             return;
         }
+        console.log("Before resetting class: ", div.className);
+        div.className = `info`
+        div.classList.add(SongMood)
+        console.log("Final class on div: ", div.className)
         div.innerHTML = `<h2> Currently playing : <span class = "deco"> <u> ${songName} </u> </span> </h2> <br>
                          <h2> Song By : <span class = "deco"> <u> ${Artist} </u> </span></h2> <br>
-                         <h2> Duration : <span class = "deco"><u> ${minutes} minutes ${seconds} seconds </u></span> </h2>`
+                         <h2> Duration : <span class = "deco"><u> ${minutes} minutes ${seconds} seconds </u></span> </h2>
+                         <h2>Song mood : <span class = "deco">${SongMood}</span></h2>`
     })
     let isDarkmode = false
     let toggle = document.querySelector(".toggle")
