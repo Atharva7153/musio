@@ -127,6 +127,20 @@ async function main() {
       
     })
 
+    let progressBar = document.querySelector(".progress-bar")
+    audio.addEventListener("timeupdate", ()=>{
+        let progress = (audio.currentTime/audio.duration) * 100
+        progressBar.value = progress
+        let minute = Math.floor(audio.currentTime/60)
+        let seconds = Math.floor(audio.currentTime%60)
+        let currTime = document.querySelector(".currTime")
+        currTime.innerText = `${minute}:${seconds}`
+        
+    })
+    progressBar.addEventListener("input", ()=>{
+        audio.currentTime = (progressBar.value/100) * audio.duration
+    })
+
 
 
 

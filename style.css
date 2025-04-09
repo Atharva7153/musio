@@ -42,3 +42,6 @@
     color: white;
     background-color: black;
 }
+.progress-bar{
+    width: 50vh;
+}

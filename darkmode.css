@@ -1,5 +1,5 @@
 *{
-  background-color: black;
+  background-color: #141124 ;
   color: white;
 }
 .btn1{
@@ -45,4 +45,7 @@
     font-weight: bold;
     color: black;
     background-color: white;
+}
+.progress-bar{
+    width: 50vh;
 }
