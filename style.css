@@ -8,19 +8,17 @@
     border: 1px solid black;
 }
 .btn1:hover{
+    transition: all 0.2 ease;
+    transform: scale(0.9);
     background-color: #2b5270;
 }
 .btn2{
-    background-color: #e31992;
-    color: white;
-    font-weight: bold;
-    height: 3vh;
-    width: 5vw;
-    font-size: 100%;
-    border: 1px solid black;
+   
+    height: 5vh;
 }
 .btn2:hover{
-    background-color: #e31919;
+    transition: all 0.2 ease;
+    transform: scale(0.9);
 }
 
 .update {
