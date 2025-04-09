@@ -141,6 +141,40 @@ async function main() {
         audio.currentTime = (progressBar.value/100) * audio.duration
     })
 
+    audio.addEventListener("ended", ()=>{
+        if (i >= songs[0][playlist].length - 1) {
+            console.log("ayoo")
+        } else {
+            next.click()
+
+        }
+    })
+
+    let volume = document.querySelector(".volumeBar")
+    volume.addEventListener("input", ()=>{
+        audio.volume = volume.value/100
+    })
+
+    document.addEventListener("keydown", (e)=>{
+        if(e.code == "Space"){
+            e.preventDefault();
+            if(isPlaying == true){
+                audio.pause();
+                isPlaying = false
+            }
+            else if(isPlaying == false){
+                audio.play();
+                isPlaying = true
+            }
+        }
+        else if(e.code == "ArrowRight"){
+            next.click();
+        }
+        else if(e.code == "ArrowLeft"){
+            prev.click();
+        }
+    })
+
 
 
 
