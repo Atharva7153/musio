@@ -101,6 +101,15 @@
                 "url" : "./Indie/Husn.mp3",
                 "mood" : "sad"
             },
+
+             {
+                "title" : "Lustrous",
+                "artist" : "Unknown",
+                "url" : "./Indie/Lustrous.mp3",
+                "mood" : "happy"
+            },
+
+            
             {
                 "title" : "Jo Tum Mere Ho",
                 "artist" : "Anuv Jain",
